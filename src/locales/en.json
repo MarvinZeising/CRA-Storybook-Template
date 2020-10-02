@@ -1,0 +1,8 @@
+{
+  "translation": {
+    "common": {
+      "placeholderText": "The widget's preview is visible in the live preview once the page has been saved.",
+      "unexpectedError": "There was an unexpected error."
+    }
+  }
+}

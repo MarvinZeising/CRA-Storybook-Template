@@ -1,0 +1,8 @@
+{
+  "translation": {
+    "common": {
+      "placeholderText": "Die Vorschau des Widgets ist in der Live-Ansicht sichtbar, sobald die Seite gespeichert wurde.",
+      "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten."
+    }
+  }
+}
