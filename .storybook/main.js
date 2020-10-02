@@ -12,6 +12,7 @@ module.exports = {
     "@storybook/addon-toolbars",
     "@storybook/addon-storysource",
     "@storybook/addon-a11y",
+    "storybook-addon-designs",
     "@storybook/preset-create-react-app"
   ]
 }

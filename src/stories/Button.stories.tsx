@@ -1,6 +1,7 @@
 import React from 'react';
 // also exported from '@storybook/react' if you can deal with breaking changes in 6.1
 import { Story, Meta } from '@storybook/react/types-6-0';
+import { withDesign } from 'storybook-addon-designs'
 
 import { Button, ButtonProps } from './Button';
 
@@ -10,6 +11,7 @@ export default {
   argTypes: {
     backgroundColor: { control: 'color' },
   },
+ decorators: [withDesign] 
 } as Meta;
 
 const Template: Story<ButtonProps> = (args) => <Button {...args} />;
@@ -19,6 +21,12 @@ Primary.args = {
   primary: true,
   label: 'Button',
 };
+Primary.parameters = {
+  design: {
+    type: 'figma',
+    url: 'https://www.figma.com/file/4kOdtDm9wwDmlKuQyH92KM/Workday-widget?node-id=628%3A75',
+  }
+}
 
 export const Secondary = Template.bind({});
 Secondary.args = {
